@@ -10,7 +10,7 @@ A simple content-based movie recommendeation system that suggests movies based o
 
 ### Dataset
 
-This project uses a dataset from kaggle that has the top 100 IMBD movies, and contains information about top-related movies including their descriptions, genres, rating, and other metadata.  The file is already in the repository!
+This project uses a dataset from kaggle that has the top 100 IMBD movies, and contains information about top-related movies including their descriptions, genres, rating, and other metadata.  The file is already in the repository! Kaggle Link: https://www.kaggle.com/datasets/mayurkadam9833/top-100-imdb-movies?resource=download
 
 ### Dataset Structure
 
@@ -38,6 +38,7 @@ This project uses a dataset from kaggle that has the top 100 IMBD movies, and co
 2. **Create and activate a virtual environment:**  
    ```bash
    python -m venv venv
+   python3 -m venv venv #Or this line here depending on your version of python installed
    source venv/bin/activate  #On Windows: venv\Scripts\activate
    ```
 
@@ -50,6 +51,7 @@ This project uses a dataset from kaggle that has the top 100 IMBD movies, and co
 
 Run the recommendation system using:
 
+*Make sure you are using the correct Python Interpreter in VS Code
 ```
 python script.py
 ```
@@ -95,7 +97,11 @@ The system uses:
 - Cosine similarity for finding matches
 - Simple command-line interface for interaction
 
+## Salary Expectations
+
+3000 per month
+
 ## Video Demo
 
-bruh
+https://drive.google.com/file/d/15Y88XilFwcRwcrzDATZ1ItxeY1eu1byb/view?usp=share_link
 
